@@ -1,0 +1,29 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="parts/common :: head"></head>
+
+<body>
+
+<div th:insert="~{parts/common :: scripts}"></div>
+<div th:replace="parts/common :: navbar"></div>
+
+<div id="container" class="container mt-5">
+    <h5>Контактна інформація</h5>
+    <br>
+    <p><b>Телефон:</b> (067) 777-77-77<br/>
+        <b>E-mail:</b> annygoodday@gmail.com</p>
+    <br>
+    <h6>Режим работи</h6>
+    <p>Інтернет магазин працює з 08:00 до 20:00 без перерви та вихідних. <br/>
+        Онлайн замовлення приймаються цілодобово.</p>
+    <br>
+    <h6>Доставка</h6>
+    <p>Доставка замовлень відбувається через кур'єрську службу</p>
+
+</div>
+
+<footer th:insert="~{parts/common :: footer}"></footer>
+
+</body>
+</html>
